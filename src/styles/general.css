@@ -5,3 +5,36 @@
 
 	overflow: auto;
 }
+
+.home.page {
+	width: 100%;
+	min-height: 100vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+.button {
+	padding: 1em;
+
+	background-color: var(--light-accent);
+	border: solid 2px var(--dark);
+	border-radius: 0.25em;
+	outline: none;
+
+	color: var(--dark);
+	font-size: 2em;
+
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: var(--dark-accent);
+}
