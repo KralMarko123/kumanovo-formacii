@@ -1,14 +1,10 @@
 {
-	"homepage": "https://kralmarko123.github.io/kumanovo-formacii",
 	"name": "kumanovo-formacii",
 	"version": "1.0.0",
-	"description": "",
 	"main": "index.js",
 	"scripts": {
 		"start": "react-scripts start",
-		"build": "react-scripts build",
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build"
+		"build": "react-scripts build"
 	},
 	"author": "",
 	"license": "ISC",
@@ -29,8 +25,5 @@
 			"last 1 firefox version",
 			"last 1 safari version"
 		]
-	},
-	"devDependencies": {
-		"gh-pages": "^4.0.0"
 	}
 }
