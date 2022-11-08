@@ -9,3 +9,13 @@
 .formation.two .formation__line:nth-of-type(2) .formation__dot:nth-of-type(3) {
 	margin-right: calc((var(--dot-gap) * 5.25));
 }
+
+@media (max-width: 1199px) {
+	.formation.two .formation__line:nth-of-type(1) .formation__dot:nth-of-type(3) {
+		margin-right: calc((var(--dot-gap)) * 8);
+	}
+
+	.formation.two .formation__line:nth-of-type(2) .formation__dot:nth-of-type(3) {
+		margin-right: calc((var(--dot-gap) * 6));
+	}
+}
