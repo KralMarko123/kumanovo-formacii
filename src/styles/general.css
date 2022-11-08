@@ -1,0 +1,7 @@
+.page {
+	min-width: fit-content;
+	background-color: var(--light);
+	color: var(--dark);
+
+	overflow: auto;
+}
