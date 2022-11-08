@@ -5,7 +5,7 @@ const Home = () => {
 	let navigate = useNavigate();
 
 	return (
-		<div className="home page">
+		<div className="page home">
 			<div className="buttons">
 				<button className="button" onClick={() => navigate("/seniors")}>
 					Сениори

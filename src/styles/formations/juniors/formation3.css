@@ -1,0 +1,11 @@
+.juniors .formation.three .formation__line:nth-of-type(3) {
+	margin-top: calc(2 * var(--line-gap));
+}
+
+.juniors .formation.three .formation__line:nth-of-type(1) .formation__dot:nth-of-type(5) {
+	margin-right: calc(var(--dot-gap) * 8);
+}
+
+.juniors .formation.three .formation__line:nth-of-type(2) .formation__dot:nth-of-type(4) {
+	margin-right: calc(var(--dot-gap) * 9.75);
+}

@@ -1,15 +1,14 @@
 import React from "react";
-import "../../styles/formations/seniors/formation3.css";
 
-const Formation3 = () => {
-	const lineOne = [13, 14, 15, 2, 8, 9, 10, 5, 18, 19];
-	const lineTwo = [6, 7, 16, 3, 1, 4, 17, 11, 12, 20];
+const Formation1 = () => {
+	const lineOne = [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27];
+	const lineTwo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
 
 	const lines = [[...lineOne], [...lineTwo]];
 	return (
-		<div className="formation three">
+		<div className="formation one">
 			<div className="formation__container">
-				<span className="formation__number">Трета</span>
+				<span className="formation__number">Прва</span>
 				{lines.map((line, i) => {
 					return (
 						<ul key={i} className="formation__line">
@@ -26,4 +25,4 @@ const Formation3 = () => {
 	);
 };
 
-export default Formation3;
+export default Formation1;

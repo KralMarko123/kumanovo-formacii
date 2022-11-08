@@ -1,10 +1,10 @@
 import React from "react";
 
 const Formation1 = () => {
-	const lineFour = [1];
-	const lineThree = [2, 3, 4, 5];
-	const lineTwo = [6, 7, 8, 9, 10, 11, 12];
 	const lineOne = [13, 14, 15, 16, 17, 18, 19, 20];
+	const lineTwo = [6, 7, 8, 9, 10, 11, 12];
+	const lineThree = [2, 3, 4, 5];
+	const lineFour = [1];
 
 	const lines = [[...lineOne], [...lineTwo], [...lineThree], [...lineFour]];
 	return (

@@ -6,7 +6,7 @@ import "../styles/formations.css";
 
 const Seniors = () => {
 	return (
-		<div className="page">
+		<div className="page seniors">
 			<Formation1 />
 			<Formation2 />
 			<Formation3 />
