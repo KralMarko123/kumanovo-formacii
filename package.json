@@ -1,5 +1,6 @@
 {
 	"name": "kumanovo-formacii",
+	"homepage": "https://kumanovo.markomarkovikj.com/",
 	"version": "1.0.0",
 	"main": "index.js",
 	"scripts": {
