@@ -6,7 +6,7 @@ const App = () => {
 	return (
 		<Router>
 			<Routes>
-				<Route path="/" element={<Seniors />} />
+				<Route path="/kumanovo-formacii" element={<Seniors />} />
 			</Routes>
 		</Router>
 	);
