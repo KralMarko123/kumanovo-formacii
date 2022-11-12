@@ -3,6 +3,7 @@
 	background-color: var(--light);
 	color: var(--dark);
 
+	padding: 0em 1em;
 	overflow: auto;
 }
 

@@ -10,10 +10,10 @@
 .formation__number {
 	position: absolute;
 	top: 50%;
-	left: 2%;
+	left: 0%;
 
 	color: var(--dark-accent);
-	font-size: 1.5em;
+	font-size: 1.25em;
 	font-weight: bold;
 
 	transform: translateY(-50%);
@@ -32,10 +32,11 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	gap: var(--dot-gap);
+	gap: var(--dot-size);
 }
 
 .formation__dot {
+	position: relative;
 	width: var(--dot-size);
 	height: var(--dot-size);
 
@@ -49,6 +50,28 @@
 	color: var(--light-accent);
 	font-size: calc(var(--dot-size) - 0.65em);
 	font-weight: bold;
+
+	cursor: pointer;
+}
+
+.formation__dot-name {
+	position: absolute;
+	padding: 0.25em 0.5em;
+	background-color: var(--dark-accent);
+	border-radius: 0.5em;
+
+	color: var(--light-accent);
+	font-size: 1em;
+
+	transition: all 0.25s ease-in-out;
+	z-index: 10;
+	opacity: 0;
+}
+
+.formation__dot:hover > .formation__dot-name,
+.formation__dot:focus > .formation__dot-name {
+	transform: translateY(calc(-1 * var(--dot-size) - 0.5em));
+	opacity: 1;
 }
 
 @media (max-width: 1199px) {
@@ -56,11 +79,15 @@
 		top: calc(-10% - 2em);
 		left: 50%;
 
-		font-size: 2em;
+		font-size: 1.5em;
 		transform: translateX(-50%);
 	}
 
 	.formation__dot {
 		font-weight: normal;
+	}
+
+	.formation__dot-name {
+		font-size: 0.85em;
 	}
 }
