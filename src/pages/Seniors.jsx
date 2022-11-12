@@ -6,7 +6,7 @@ const Seniors = () => {
 	return (
 		<div className="page seniors">
 			{SENIOR_FORMATIONS.map((formation) => (
-				<SeniorFormation formation={formation} />
+				<SeniorFormation key={formation.order} formation={formation} />
 			))}
 		</div>
 	);

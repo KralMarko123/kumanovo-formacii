@@ -90,7 +90,7 @@ export const SENIORS = {
 	},
 
 	no19: {
-		name: "Тоана",
+		name: "Туана",
 		number: 19,
 	},
 
