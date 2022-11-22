@@ -21,6 +21,7 @@ const {
 	no18,
 	no19,
 	no20,
+	no21,
 } = SENIORS;
 
 export const SENIOR_FORMATIONS = [
@@ -28,9 +29,11 @@ export const SENIOR_FORMATIONS = [
 		order: "one",
 		name: "Прва Формација",
 		lines: [
-			[no13, no14, no15, no16, no17, no18, no19, no20],
-			[no6, no7, no8, no9, no10, no11, no12],
-			[no2, no3, no4, no5],
+			[no8, no12, no14, no15, no19, no17],
+			[no13, no16, no9, no18, no11],
+			[no2, no7, no10, no20],
+			[no6, no21, no5],
+			[no3, no4],
 			[no1],
 		],
 	},
@@ -39,10 +42,10 @@ export const SENIOR_FORMATIONS = [
 		order: "two",
 		name: "Втора Формација",
 		lines: [
-			[no12, no14, no15, no18, no19, no20],
-			[no6, no7, no16, no17, no11, no12],
-			[no2, no8, no9, no10, no5],
-			[no3, no1, no4],
+			[no8, no12, no14, no15, no19, no17],
+			[no13, no2, no16, no18, no20, no11],
+			[no6, no7, no9, no10, no5],
+			[no3, no21, no1, no4],
 		],
 	},
 
@@ -50,8 +53,8 @@ export const SENIOR_FORMATIONS = [
 		order: "three",
 		name: "Трета Формација",
 		lines: [
-			[no13, no14, no15, no2, no8, no9, no10, no5, no18, no19],
-			[no6, no7, no16, no3, no1, no4, no17, no11, no12, no20],
+			[no8, no12, no14, no7, no9, no10, no5, no15, no19, no17],
+			[no13, no2, no16, no6, no3, no21, no1, no4, no18, no20, no11],
 		],
 	},
 
@@ -59,13 +62,12 @@ export const SENIOR_FORMATIONS = [
 		order: "four",
 		name: "Четврта Формација",
 		lines: [
-			[no13, no2, no5, no19],
-			[no14, no18],
-			[no8, no9, no10],
-			[no15, no11],
-			[no3, no1, no4],
-			[no6, no12],
-			[no7, no16, no17, no20],
+			[no14, no17],
+			[no12, no7, no5, no19],
+			[no8, no6, no9, no10, no4, no15],
+			[no2, no21, no1, no18],
+			[no13, no3, no11],
+			[no16, no20],
 		],
 	},
 
@@ -73,11 +75,10 @@ export const SENIOR_FORMATIONS = [
 		order: "five",
 		name: "Петта Формација",
 		lines: [
-			[no13, no2, no8, no10, no5, no19],
-			[no14, no3, no9, no4, no18],
-			[no15, no6, no12, no11],
-			[no7, no1, no20],
-			[no16, no17],
+			[no14, no12, no7, no5, no19, no17],
+			[no8, no6, no9, no10, no4, no15, no18],
+			[no13, no2, no21, no3, no1, no11],
+			[no16, no20],
 		],
 	},
 
@@ -85,13 +86,9 @@ export const SENIOR_FORMATIONS = [
 		order: "six",
 		name: "Шеста Формација",
 		lines: [
-			[no9],
-			[no2, no5],
-			[no8, no1, no10],
-			[no13, no14, no18, no19],
-			[no7, no3, no6, no4, no20],
-			[no16, no15, no11, no17],
-			[no12],
+			[no1, no2, no3, no4, no5, no6],
+			[no7, no8, no9, no10, no11, no12, no13, no14, no15],
+			[no16, no17, no18, no19, no20, no21],
 		],
 	},
 ];

@@ -1,0 +1,26 @@
+/**prva linija*/
+.seniors .formation.six .formation__line:nth-of-type(1) .formation__dot:nth-of-type(3) {
+	margin-left: calc(var(--dot-size) * 2);
+}
+
+.seniors .formation.six .formation__line:nth-of-type(1) .formation__dot:nth-of-type(4) {
+	margin-right: calc(var(--dot-size) * 2);
+}
+
+/**vtora linija*/
+.seniors .formation.six .formation__line:nth-of-type(2) .formation__dot:nth-of-type(4) {
+	margin-left: calc(var(--dot-size) * 0.25);
+}
+
+.seniors .formation.six .formation__line:nth-of-type(2) .formation__dot:nth-of-type(6) {
+	margin-right: calc(var(--dot-size) * 0.25);
+}
+
+/**treta linija*/
+.seniors .formation.six .formation__line:nth-of-type(3) .formation__dot:nth-of-type(3) {
+	margin-left: calc(var(--dot-size) * 2);
+}
+
+.seniors .formation.six .formation__line:nth-of-type(3) .formation__dot:nth-of-type(4) {
+	margin-right: calc(var(--dot-size) * 2);
+}

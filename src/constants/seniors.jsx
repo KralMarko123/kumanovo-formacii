@@ -55,32 +55,32 @@ export const SENIORS = {
 	},
 
 	no12: {
-		name: "?",
+		name: "Анастасија",
 		number: 12,
 	},
 
 	no13: {
-		name: "?",
+		name: "Марија",
 		number: 13,
 	},
 
 	no14: {
-		name: "?",
+		name: "Александра",
 		number: 14,
 	},
 
 	no15: {
-		name: "?",
+		name: "Симона",
 		number: 15,
 	},
 
 	no16: {
-		name: "?",
+		name: "Сара",
 		number: 16,
 	},
 
 	no17: {
-		name: "?",
+		name: "Михаела",
 		number: 17,
 	},
 
@@ -97,5 +97,10 @@ export const SENIORS = {
 	no20: {
 		name: "Миа",
 		number: 20,
+	},
+
+	no21: {
+		name: "Мила",
+		number: 21,
 	},
 };
