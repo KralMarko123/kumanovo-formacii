@@ -69,4 +69,14 @@ export const JUNIOR_FORMATIONS = [
 			[no19, no6, no20, no7, no21, no8, no22, no9, no23],
 		],
 	},
+
+	{
+		order: "five",
+		name: "Петта Формација",
+		lines: [
+			[no19, no6, no20, no7, no21, no8, no22, no9, no23, no14],
+			[no15, no16, no17, no18, no24, no25, no26, no27, no13],
+			[no1, no2, no3, no4, no5, no10, no11, no12],
+		],
+	},
 ];
