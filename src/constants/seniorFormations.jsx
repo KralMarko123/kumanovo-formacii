@@ -86,9 +86,9 @@ export const SENIOR_FORMATIONS = [
 		order: "six",
 		name: "Шеста Формација",
 		lines: [
-			[no1, no2, no3, no4, no5, no6],
-			[no7, no8, no9, no10, no11, no12, no13, no14, no15],
-			[no16, no17, no18, no19, no20, no21],
+			[no12, no2, no7, no5, no19, no17],
+			[no8, no13, no21, no3, no6, no1, no4, no10, no11],
+			[no14, no9, no16, no20, no15, no18],
 		],
 	},
 ];
