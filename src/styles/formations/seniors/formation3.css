@@ -1,1 +1,3 @@
-
+.seniors .formation.three .formation__line:nth-of-type(2) {
+	transform: translateX(calc(var(--dot-size) * 1.25));
+}

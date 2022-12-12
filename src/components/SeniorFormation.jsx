@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/formations.css";
+import "../styles/formations/seniors/formation1.css";
 import "../styles/formations/seniors/formation2.css";
 import "../styles/formations/seniors/formation3.css";
 import "../styles/formations/seniors/formation4.css";

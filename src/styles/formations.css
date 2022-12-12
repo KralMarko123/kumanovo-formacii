@@ -10,7 +10,7 @@
 .formation__number {
 	position: absolute;
 	top: 50%;
-	left: 0%;
+	left: 5%;
 
 	color: var(--dark-accent);
 	font-size: 1.25em;

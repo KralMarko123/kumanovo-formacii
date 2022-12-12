@@ -29,8 +29,8 @@ export const SENIOR_FORMATIONS = [
 		order: "one",
 		name: "Прва Формација",
 		lines: [
-			[no8, no12, no14, no15, no19, no17],
-			[no13, no16, no9, no18, no11],
+			[no8, no14, no15, no19],
+			[no13, no9, no18, no11],
 			[no2, no7, no10, no20],
 			[no6, no21, no5],
 			[no3, no4],
@@ -42,8 +42,8 @@ export const SENIOR_FORMATIONS = [
 		order: "two",
 		name: "Втора Формација",
 		lines: [
-			[no8, no12, no14, no15, no19, no17],
-			[no13, no2, no16, no18, no20, no11],
+			[no8, no14, no15, no19],
+			[no13, no2, no18, no20, no11],
 			[no6, no7, no9, no10, no5],
 			[no3, no21, no1, no4],
 		],
@@ -53,8 +53,8 @@ export const SENIOR_FORMATIONS = [
 		order: "three",
 		name: "Трета Формација",
 		lines: [
-			[no8, no12, no14, no7, no9, no10, no5, no15, no19, no17],
-			[no13, no2, no16, no6, no3, no21, no1, no4, no18, no20, no11],
+			[no8, no13, no14, no7, no18, no9, no10, no15, no19],
+			[no2, no6, no3, no21, no1, no4, no5, no20, no11],
 		],
 	},
 
@@ -62,12 +62,11 @@ export const SENIOR_FORMATIONS = [
 		order: "four",
 		name: "Четврта Формација",
 		lines: [
-			[no14, no17],
-			[no12, no7, no5, no19],
-			[no8, no6, no9, no10, no4, no15],
-			[no2, no21, no1, no18],
-			[no13, no3, no11],
-			[no16, no20],
+			[no14, no7, no10, no19],
+			[no13, no18, no9, no15],
+			[no8, no11],
+			[no2, no21, no1, no5],
+			[no6, no3, no4, no20],
 		],
 	},
 
@@ -75,10 +74,10 @@ export const SENIOR_FORMATIONS = [
 		order: "five",
 		name: "Петта Формација",
 		lines: [
-			[no14, no12, no7, no5, no19, no17],
-			[no8, no6, no9, no10, no4, no15, no18],
-			[no13, no2, no21, no3, no1, no11],
-			[no16, no20],
+			[no14, no10],
+			[no2, no13, no7, no18, no9, no15, no19],
+			[no6, no8, no21, no1, no11, no5],
+			[no3, no4, no20],
 		],
 	},
 
@@ -86,9 +85,9 @@ export const SENIOR_FORMATIONS = [
 		order: "six",
 		name: "Шеста Формација",
 		lines: [
-			[no12, no2, no7, no5, no19, no17],
+			[no2, no7, no19],
 			[no8, no13, no21, no3, no6, no1, no4, no10, no11],
-			[no14, no9, no16, no20, no15, no18],
+			[no14, no9, no5, no20, no15, no18],
 		],
 	},
 ];
