@@ -1,7 +1,14 @@
 import React from "react";
 import "../styles/formations.css";
+import "../styles/formations/juniors/formation1.css";
+import "../styles/formations/juniors/formation2.css";
 import "../styles/formations/juniors/formation3.css";
 import "../styles/formations/juniors/formation4.css";
+import "../styles/formations/juniors/formation4.css";
+import "../styles/formations/juniors/formation6.css";
+import "../styles/formations/juniors/formation7.css";
+import "../styles/formations/juniors/formation8.css";
+import "../styles/formations/juniors/formation9.css";
 
 const JuniorFormation = ({ formation }) => {
 	return (
