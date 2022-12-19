@@ -103,4 +103,9 @@ export const SENIORS = {
 		name: "Мила",
 		number: 21,
 	},
+
+	no00: {
+		name: "?",
+		number: "?",
+	},
 };

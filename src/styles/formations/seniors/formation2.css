@@ -2,16 +2,10 @@
 	margin-top: calc(2 * var(--line-gap));
 }
 
-.seniors .formation.two .formation__line:nth-of-type(1) .formation__dot:nth-of-type(2) {
+.seniors .formation.two .formation__line:nth-of-type(1) .formation__dot:nth-of-type(3) {
 	margin-right: calc(var(--dot-size) * 7);
 }
 
 .seniors .formation.two .formation__line:nth-of-type(2) .formation__dot:nth-of-type(3) {
-	margin: 0 calc(var(--dot-size) * 2);
-}
-
-@media (max-width: 1199px) {
-	.seniors .formation.two .formation__line:nth-of-type(1) .formation__dot:nth-of-type(2) {
-		margin-right: calc(var(--dot-size) * 8);
-	}
+	margin: 0 calc(var(--dot-size) * 3.5);
 }

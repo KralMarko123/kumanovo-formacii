@@ -6,6 +6,10 @@ import "../styles/formations/seniors/formation3.css";
 import "../styles/formations/seniors/formation4.css";
 import "../styles/formations/seniors/formation5.css";
 import "../styles/formations/seniors/formation6.css";
+import "../styles/formations/seniors/formation7.css";
+import "../styles/formations/seniors/formation8.css";
+import "../styles/formations/seniors/formation9.css";
+import "../styles/formations/seniors/formation10.css";
 
 const SeniorFormation = ({ formation }) => {
 	return (
